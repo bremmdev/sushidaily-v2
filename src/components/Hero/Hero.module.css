@@ -1,0 +1,32 @@
+.hero {
+  background-color: var(--dark-clr);
+  padding:4em 0;
+}
+
+.hero-inner {
+  display:grid;
+  grid-template-columns: 1fr;
+  gap:2em;
+  align-items: center;
+  text-align: center;
+}
+
+.hero p {
+  margin:2em 0;
+  line-height:2;
+}
+
+.hero-img {
+  width:100%;
+  max-width: 360px; 
+  mix-blend-mode:lighten;
+  margin:0 auto;
+}
+
+@media(min-width:768px){
+  .hero-inner {
+    grid-template-columns: 60% 40%;
+    gap:2em;
+    text-align: left;
+  }
+}

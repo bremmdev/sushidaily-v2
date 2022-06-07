@@ -1,0 +1,29 @@
+.cart-button{
+  background: var(--brand-clr);
+  background: linear-gradient(45deg, var(--brand-clr) 10%, var(--text-clr) 90%);
+  color:var(--dark-clr);
+  border-radius: 1em;
+  font-weight: 600;
+  padding:0.6em 1.6em;
+  gap:0.8em;
+  transition: all 0.25s ease-in-out;
+  cursor:pointer;
+}
+
+.cart-button:hover{
+  transform:scale(1.02);
+  transition: all 0.25s ease-in-out;
+}
+
+.cart-button__amount {
+  background-color: var(--dark-clr);
+  color: var(--text-clr);
+  padding:0.2em 0.7em;
+  border-radius:0.6em;
+}
+
+.cart-icon{
+  width:1.25em;
+  height:1.25em;
+  fill: var(--dark-clr);
+}

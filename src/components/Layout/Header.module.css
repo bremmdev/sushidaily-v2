@@ -1,0 +1,18 @@
+.header {
+  background-color: var(--dark-clr);
+  padding: 1em 0;
+}
+
+.header h1 {
+  font-family: var(--brand-font-family);
+  color: var(--brand-clr);
+  font-weight: 400;
+  font-size: 2.2rem;
+  transform:translateY(4px);
+}
+
+.header > div{
+  padding-bottom:1em;
+  border-bottom:1px solid var(--brand-clr);
+}
+
