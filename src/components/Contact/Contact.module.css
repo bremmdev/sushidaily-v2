@@ -1,0 +1,44 @@
+.contact {
+  background-color: var(--dark-sec-clr);
+  padding:4em 0;
+}
+
+.contact h2{
+  margin-bottom:1em;
+}
+
+.contact-inner {
+  display:grid;
+  grid-template-columns: 1fr;
+  gap:4em;
+  align-items: center;
+  text-align: left;
+}
+
+
+.contact-img {
+  width:100%;
+  max-width: 280px; 
+  mix-blend-mode:lighten;
+  margin:0 auto;
+}
+
+.contact li{
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact p{
+  margin:1.5em 0;
+}
+
+.address {
+  color: var(--brand-clr);
+}
+
+@media(min-width:768px){
+  .contact-inner {
+    grid-template-columns: 50% 50%;
+    gap:2em;
+  }
+}

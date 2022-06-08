@@ -9,7 +9,7 @@ const CartButton = () => {
   return (
     <div className={cartButtonClasses}>
       <CartIcon className={styles['cart-icon']}/>
-      <div>Your Cart</div>
+      <div>Cart</div>
       <div className={styles['cart-button__amount']}>5</div>
     </div>
   )

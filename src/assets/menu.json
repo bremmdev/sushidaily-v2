@@ -1,0 +1,94 @@
+{
+  "menu": {
+    "'ms_001'": {
+      "description": "12 pieces of signature spicy tuna",
+      "price": 32,
+      "title": "Tanaka's Tuna"
+    },
+    "'ms_002'": {
+      "description": "12 pieces assorted premium sliced raw fish",
+      "price": 28,
+      "title": "Sashimi Special"
+    },
+    "'ms_003'": {
+      "description": "A big cut-up roll with eel, egg omelet, and vegetables (8 pieces)",
+      "price": 22,
+      "title": "Futomaki"
+    },
+    "'ms_004'": {
+      "description": "Lean blue tuna and avocado with wasabi soy sauce",
+      "price": 22,
+      "title": "Maguro Avocado"
+    },
+    "'ms_005'": {
+      "description": "Salmon sautéed with teriyaki sauce, rice and mixed vegetables",
+      "price": 30,
+      "title": "Salmon Teriyaki"
+    },
+    "'mn_001'": {
+      "description": "Tuna",
+      "price": 7,
+      "title": "Maguro"
+    },
+    "'mn_002'": {
+      "description": "Salmon",
+      "price": 6,
+      "title": "Sake"
+    },
+    "'mn_003'": {
+      "description": "Boiled Shrimp",
+      "price": 7,
+      "title": "Ebi"
+    },
+    "'mn_004'": {
+      "description": "Squid",
+      "price": 8,
+      "title": "Ika"
+    },
+    "'mn_005'": {
+      "description": "Red Snapper",
+      "price": 9,
+      "title": "Tai"
+    },
+    "'mn_006'": {
+      "description": "Egg",
+      "price": 6,
+      "title": "Tamago"
+    },
+    "'mn_007'": {
+      "description": "Crab",
+      "price": 8,
+      "title": "Kani"
+    },
+    "'mn_008'": {
+      "description": "Eel",
+      "price": 8,
+      "title": "Unagi"
+    },
+    "'mm_001'": {
+      "description": "Salmon, avocado, and wasabi",
+      "price": 14,
+      "title": "Sake"
+    },
+    "'mm_002'": {
+      "description": "Tuna, cucumber, and spicy sauce",
+      "price": 14,
+      "title": "Spicy Tuna"
+    },
+    "'mm_003'": {
+      "description": "Crab stick, avocado, and smelt-fish roe",
+      "price": 15,
+      "title": "California"
+    },
+    "'mm_004'": {
+      "description": "Tuna with ginger garlic sauce",
+      "price": 16,
+      "title": "Seared Tuna"
+    },
+    "'mm_005'": {
+      "description": "Pickled daikon radish",
+      "price": 13,
+      "title": "Oshinko"
+    }
+  }
+}

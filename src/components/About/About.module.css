@@ -14,6 +14,13 @@
   max-width: 360px; 
   mix-blend-mode:lighten;
   margin:4em auto;
+  position: relative;
+  box-shadow:
+  0px 0px 2.2px -3px rgba(216, 198, 132, 0.39),
+  0px 0px 6px -3px rgba(216, 198, 13, 0.184),
+  0px 0px 14.5px -3px rgba(216, 198, 13, 0.119),
+  0px 0px 48px -3px rgba(216, 198, 13, 0.068)
+  ; 
 }
 
 .about-description {
@@ -22,7 +29,7 @@
 }
 
 .about figure{
-  margin:2em 0;
+  margin:1em 0;
   font-weight: 600;
   text-align: center;
   font-size:1.2rem;
@@ -34,6 +41,10 @@
   opacity:0.7;
   font-weight: 400;
   font-size:1rem;
+}
+
+.about blockquote p{
+  line-height:1.5;
 }
 
 .quote-icon{
@@ -48,6 +59,4 @@
     gap:2em;
     text-align: center;
   }
-
-  
 }
