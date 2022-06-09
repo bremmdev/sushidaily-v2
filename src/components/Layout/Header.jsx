@@ -8,7 +8,7 @@ const Header = () => {
     <header className={styles.header}>
        <div className="container flex-between align-center">
          <h1>Sushidaily</h1> 
-         <CartButton />
+         <CartButton/>
          </div> 
 
     </header>

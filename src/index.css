@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@300;400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@300;400;600&family=Roboto+Mono&display=swap');
 
 :root{
   --brand-clr: #d8c684;
@@ -75,6 +75,11 @@ h3 {
   text-align:center;
   margin:0 auto;
   padding:2em 0;
+}
+
+.centered-0m{
+  text-align:center;
+  margin:0 auto;
 }
 
 .error {

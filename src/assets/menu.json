@@ -1,94 +1,94 @@
 {
   "menu": {
-    "'ms_001'": {
+    "ms_001": {
       "description": "12 pieces of signature spicy tuna",
       "price": 32,
       "title": "Tanaka's Tuna"
     },
-    "'ms_002'": {
+    "ms_002": {
       "description": "12 pieces assorted premium sliced raw fish",
       "price": 28,
       "title": "Sashimi Special"
     },
-    "'ms_003'": {
+    "ms_003": {
       "description": "A big cut-up roll with eel, egg omelet, and vegetables (8 pieces)",
       "price": 22,
       "title": "Futomaki"
     },
-    "'ms_004'": {
+    "ms_004": {
       "description": "Lean blue tuna and avocado with wasabi soy sauce",
       "price": 22,
       "title": "Maguro Avocado"
     },
-    "'ms_005'": {
+    "ms_005": {
       "description": "Salmon sautéed with teriyaki sauce, rice and mixed vegetables",
       "price": 30,
       "title": "Salmon Teriyaki"
     },
-    "'mn_001'": {
+    "mn_001": {
       "description": "Tuna",
       "price": 7,
-      "title": "Maguro"
+      "title": "Maguro Nigiri"
     },
-    "'mn_002'": {
+    "mn_002": {
       "description": "Salmon",
       "price": 6,
-      "title": "Sake"
+      "title": "Sake Nigiri"
     },
-    "'mn_003'": {
+    "mn_003": {
       "description": "Boiled Shrimp",
       "price": 7,
-      "title": "Ebi"
+      "title": "Ebi Nigiri"
     },
-    "'mn_004'": {
+    "mn_004": {
       "description": "Squid",
       "price": 8,
-      "title": "Ika"
+      "title": "Ika Nigiri"
     },
-    "'mn_005'": {
+    "mn_005": {
       "description": "Red Snapper",
       "price": 9,
-      "title": "Tai"
+      "title": "Tai Nigiri"
     },
-    "'mn_006'": {
+    "mn_006": {
       "description": "Egg",
       "price": 6,
-      "title": "Tamago"
+      "title": "Tamago Nigiri"
     },
-    "'mn_007'": {
+    "mn_007": {
       "description": "Crab",
       "price": 8,
-      "title": "Kani"
+      "title": "Kani Nigiri"
     },
-    "'mn_008'": {
+    "mn_008": {
       "description": "Eel",
       "price": 8,
-      "title": "Unagi"
+      "title": "Unagi Nigiri"
     },
-    "'mm_001'": {
+    "mm_001": {
       "description": "Salmon, avocado, and wasabi",
       "price": 14,
-      "title": "Sake"
+      "title": "Sake Maki"
     },
-    "'mm_002'": {
+    "mm_002": {
       "description": "Tuna, cucumber, and spicy sauce",
       "price": 14,
-      "title": "Spicy Tuna"
+      "title": "Spicy Tuna Maki"
     },
-    "'mm_003'": {
+    "mm_003": {
       "description": "Crab stick, avocado, and smelt-fish roe",
       "price": 15,
-      "title": "California"
+      "title": "California Maki"
     },
-    "'mm_004'": {
+    "mm_004": {
       "description": "Tuna with ginger garlic sauce",
       "price": 16,
-      "title": "Seared Tuna"
+      "title": "Seared Tuna Maki"
     },
-    "'mm_005'": {
+    "mm_005": {
       "description": "Pickled daikon radish",
       "price": 13,
-      "title": "Oshinko"
+      "title": "Oshinko Maki"
     }
   }
 }

@@ -1,0 +1,25 @@
+.cart-action-btn{
+  display: inline-block;
+  border:0;
+  outline:0;
+  font-size:1.25rem;
+  padding:0.3em 0.7em;
+  border-radius:0.4em;
+  font-weight:600;
+  cursor: pointer;
+  background-color: var(--dark-clr);
+  color: var(--light-brand-clr);
+  margin-left:0.5em;
+  font-family: 'Roboto Mono', monospace;
+}
+
+.cart-action-btn:first-of-type{
+  margin-left:0;
+}
+
+
+.cart-action-btn:hover{
+  background-color: #383838;
+  transition: background-color 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+

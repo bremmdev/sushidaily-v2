@@ -1,0 +1,29 @@
+.cart-item{
+  display:flex;
+  justify-content: space-between;
+  align-items:center;
+  margin-bottom:1em;
+}
+
+.cart-item:last-of-type{
+  border-bottom:1px solid var(--dark-clr);
+  padding-bottom:1em;
+}
+
+.cart-item__inner{
+  display:flex;
+  justify-content: space-between;
+  flex-basis:70%;
+}
+
+
+
+@media(min-width:768px){
+  .cart-item__inner{
+    display:flex;
+    justify-content: space-between;
+    flex-basis:80%;
+  }
+  
+
+}

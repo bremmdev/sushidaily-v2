@@ -1,0 +1,26 @@
+.overlay{
+  position: fixed;
+  inset:0;
+  background-color: rgba(0,0,0,0.75);
+  z-index:100;
+  display:grid;
+  place-items: center;
+}
+
+
+.modal{
+  display:grid;
+  background:var(--light-brand-clr);
+  color: var(--dark-clr);
+  padding:2em 1em;
+  border-radius: 1em;
+  width:90%;
+  max-width: 800px;
+}
+
+
+@media(min-width:768px){
+  .modal{
+    padding:2em;
+  }
+}
