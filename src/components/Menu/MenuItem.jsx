@@ -1,6 +1,5 @@
 import React from "react";
 import styles from "./MenuItem.module.css";
-import MenuItemForm from "./MenuItemForm.jsx";
 import { useDispatch } from "react-redux";
 import { cartActions } from "../../store/cart-slice.js";
 
@@ -30,9 +29,8 @@ const MenuItem = (props) => {
       </div>
       <div className={styles["menu-item__price"]}>
         {price}
-        <MenuItemForm onAddItem={addItemHandler}/>
+        <button className='btn btn-primary' type="button" onClick={addItemHandler}>+</button>
       </div>
-   
     </li>
   );
 };

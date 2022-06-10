@@ -12,15 +12,17 @@
   display:grid;
   background:var(--light-brand-clr);
   color: var(--dark-clr);
-  padding:2em 1em;
+  padding:3em 1em 2em 1em;
   border-radius: 1em;
   width:90%;
   max-width: 800px;
+  max-height:80vh;
+  overflow-y: auto;
 }
 
 
 @media(min-width:768px){
   .modal{
-    padding:2em;
+    padding:3em 2em 2em 2em;
   }
 }

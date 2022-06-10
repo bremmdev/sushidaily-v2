@@ -14,8 +14,12 @@
   display:flex;
   justify-content: space-between;
   flex-basis:70%;
+  align-items:center;
 }
 
+.cart-item__price{
+  margin-left:0.3em;
+}
 
 
 @media(min-width:768px){
