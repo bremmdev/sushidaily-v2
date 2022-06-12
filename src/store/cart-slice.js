@@ -32,10 +32,14 @@ const cartSlice = createSlice({
       else {
         state.items[existingIndex].amount-- 
       }
-      
+    },
+    clearCart(state){
+      state.items = []
+      state.totalAmount = 0;
+      }
     }
   }
-})
+)
 
 export const cartActions = cartSlice.actions
 

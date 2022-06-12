@@ -17,3 +17,21 @@ export const getMenu = async() => {
 
   return transformedMenu
 }
+
+export const saveOrder = async(orderData) => {
+  const res = await fetch(`${FIREBASE_URL}/orders.json`,{
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json'
+    },
+    body: JSON.stringify(orderData)
+  })
+  
+  if(!res.ok){
+    throw new Error(`Request failed: ${res.status}`)
+  } 
+
+  const data = await res.json()
+
+  return data
+}

@@ -4,9 +4,11 @@ import Modal from "../UI/Modal.jsx";
 import { useSelector, useDispatch } from "react-redux";
 import { uiActions } from "../../store/ui-slice.js";
 import CartItem from "./CartItem.jsx";
+import OrderForm from "../Order/OrderForm.jsx";
 
 const Cart = () => {
   const cart = useSelector((state) => state.cart);
+  const uiState = useSelector((state) => state.ui);
   const dispatch = useDispatch();
 
   const totalAmount = `€${cart.totalAmount.toFixed(2)}`;
@@ -14,6 +16,10 @@ const Cart = () => {
   const closeCartHandler = () => {
     dispatch(uiActions.hideCart());
   };
+
+  const startOrderHandler = () => {
+    dispatch(uiActions.showOrderForm())
+  }
 
   let cartContent = <p className="centered-0m">There are currently no items in your cart.</p>
 
@@ -26,12 +32,12 @@ const Cart = () => {
       <div className={styles.cart}>
         {cartContent} 
         <p className={styles["cart-amount"]}>Total amount: <span>{totalAmount}</span></p>
-
         <div className={styles["cart-actions"]}>
           <button className={styles["close-btn"]} onClick={closeCartHandler}>Close</button>
-          {cart.items.length > 0 && <button className={styles["order-btn"]}>Order</button>}
+          {cart.items.length > 0 && <button className={styles["order-btn"]} onClick={startOrderHandler}>Order</button>}
         </div>
       </div>
+     {uiState.showOrderForm && <OrderForm />}
     </Modal>
   );
 };

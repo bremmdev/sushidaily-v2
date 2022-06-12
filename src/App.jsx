@@ -7,15 +7,17 @@ import Menu from "./components/Menu/Menu.jsx";
 import Contact from "./components/Contact/Contact.jsx";
 import Footer from "./components/Layout/Footer.jsx";
 import Cart from "./components/Cart/Cart.jsx";
+import Notification from "./components/UI/Notification.jsx";
 
 function App() {
 
-  const showChart = useSelector(state => state.ui.isOpen)
-
+  const {showCart, notification } = useSelector(state => state.ui)
+  
   return (
     <React.Fragment>
-      {showChart && <Cart />}
+      {showCart && <Cart />}
       <Header />
+      {notification.message && <Notification status={notification.status} message={notification.message} />}
       <main>
         <Hero />
         <About />

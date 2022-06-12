@@ -2,11 +2,7 @@ import React from "react";
 import styles from "./CartItemActions.module.css";
 
 const CartItemActions = (props) => {
-  const submitHandler = (e) => {
-    e.preventDefault();
-    props.onAddItem();
-  };
-
+ 
   const addHandler = () => {
     props.onAdd()
   }

@@ -1,0 +1,42 @@
+.notification {
+  background-color: var(--dark-clr);
+  text-align: center;
+  font-weight: 600;
+  padding: 1em;
+}
+
+.notification-inner {
+  max-width: 1100px;
+  margin: 0 auto;
+  position: relative;
+  padding: 1em;
+}
+
+.error {
+  background-color: var(--error-clr);
+}
+
+.success {
+  background-color: var(--success-clr);
+}
+
+.notification p{
+  max-width: 70%;
+  margin:0 auto;
+}
+
+.notification button {
+  position: absolute;
+  right: 1em;
+  top: 0.9rem;
+  outline: none;
+  border: 0;
+  background: transparent;
+  border-radius:50%;
+  display:grid;
+  place-content: center;
+}
+
+.notification button:hover {
+  background: rgba(0,0,0,0.3);
+}

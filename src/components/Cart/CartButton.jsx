@@ -12,7 +12,7 @@ const CartButton = () => {
   const numberOfItems = menuItems.reduce((x, y) => x + y.amount, 0)
 
   const showCartHandler = () => {
-    dispatch(uiActions.showChart())
+    dispatch(uiActions.showCart())
   }
 
   const cartButtonClasses = `${styles['cart-button']} flex-between align-center`

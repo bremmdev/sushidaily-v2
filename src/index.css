@@ -6,6 +6,9 @@
   --dark-sec-clr: #1B1C1A;
   --light-brand-clr: #e8ddb5;
   --text-clr: #faf7ed;
+  --success-clr: #00E67D;
+  --error-clr: #d8323e;
+  --error-light-color: #f7d6d8;
   --brand-font-family: 'Great Vibes', cursive;
   --body-font-family: 'Poppins', sans-serif;
   font-size:1rem;
@@ -83,8 +86,9 @@ h3 {
 }
 
 .error {
-  color: #F47174;
+  color: var(--error-clr);
   font-weight: 600;
+  text-align: center;
 }
 
 .flex-between {
@@ -150,7 +154,6 @@ h3 {
     scrollbar-color: var(--brand-clr) #efe8ce;
   }
 }
-
 
 @media(max-width: 560px){
   :root{

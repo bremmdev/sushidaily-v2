@@ -3,14 +3,40 @@ import { createSlice } from "@reduxjs/toolkit";
 const uiSlice = createSlice({
   name: 'ui',
   initialState: {
-    isOpen: false
+    showCart: false,
+    showOrderForm: false,
+    notification: {
+      status: null,
+      message: null
+    }
   },
   reducers: {
-    showChart(state) {
-      state.isOpen = true
+    showCart(state) {
+      state.showCart = true
     },
     hideCart(state) {
-      state.isOpen = false
+      state.showCart = false
+    },
+    showOrderForm(state) {
+      state.showOrderForm = true
+    },
+    hideOrderForm(state) {
+      state.showOrderForm = false
+    },
+    hideFormAndCart(state){
+      state.showOrderForm = false
+      state.showCart = false
+    },
+    setNotification(state, action) {
+      state.notification = {
+        ...action.payload
+      }
+    },
+    clearNotification(state) {
+      state.notification = {
+        status: null,
+        message: null
+      }
     }
   }
 })
