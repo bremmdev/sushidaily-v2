@@ -28,6 +28,10 @@ Shopping cart:
 
 ![image](https://user-images.githubusercontent.com/76665118/173444163-e064329a-a741-4e64-94a3-daa404e67177.png)
 
+Form with validation:
+
+![image](https://user-images.githubusercontent.com/76665118/173444527-1af7d630-ca33-443d-9c1d-7aab2056d998.png)
+
 Notification component after a successful order:
 
 ![image](https://user-images.githubusercontent.com/76665118/173444095-5358cb0e-52d1-4559-bdff-35a031d7ac6e.png)
