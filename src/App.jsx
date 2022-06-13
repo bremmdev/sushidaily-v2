@@ -11,7 +11,8 @@ import Notification from "./components/UI/Notification.jsx";
 
 function App() {
 
-  const {showCart, notification } = useSelector(state => state.ui)
+  const showCart = useSelector(state => state.ui.showCart)
+  const notification = useSelector(state => state.ui.notification)
   
   return (
     <React.Fragment>

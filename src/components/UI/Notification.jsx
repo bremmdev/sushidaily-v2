@@ -18,10 +18,10 @@ const Notification = (props) => {
       : `${styles["notification-inner"]} ${styles.success}`;
 
   return (
-    <div className={styles.notification} onClick={closeNotificationHandler}>
+    <div className={styles.notification}>
       <div className={notificationClasses}>
         <p>{props.message}</p>
-        <button>
+        <button onClick={closeNotificationHandler}>
           <CloseIcon />
         </button>
       </div>

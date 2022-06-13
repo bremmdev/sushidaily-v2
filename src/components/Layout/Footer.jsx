@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <footer className={styles.footer}>
       <div className="container">
-        <h1>Sushidaily</h1>
+        <h2>Sushidaily</h2>
         <div className={styles["footer-icons"]}>
           <a href=""><InstagramIcon className={styles['footer-icon']}/></a>
           <a href=""><FacebookIcon className={styles['footer-icon']}/></a>

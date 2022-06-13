@@ -13,6 +13,11 @@ const uiSlice = createSlice({
   reducers: {
     showCart(state) {
       state.showCart = true
+      //clear any 'open' notifications
+      state.notification = {
+        status: null,
+        message: null
+      }
     },
     hideCart(state) {
       state.showCart = false

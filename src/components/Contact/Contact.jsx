@@ -13,7 +13,7 @@ const Contact = () => {
             <p>Opening hours:</p>
             <ul>
               <li>
-                Monday - Friday <span>18:00 - 23:00</span>{" "}
+                Monday - Friday <span>18:00 - 23:00</span>
               </li>
               <li>
                 Saturday <span>17:00 - 00:00</span>

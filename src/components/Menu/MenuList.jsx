@@ -1,5 +1,4 @@
 import React from "react";
-import styles from "./MenuList.module.css";
 import MenuItem from "./MenuItem.jsx";
 
 const MealsList = (props) => {
@@ -31,18 +30,12 @@ const MealsList = (props) => {
 
   return (
     <div>
-  
         <h3>Specials</h3>
         {specialsContent}
-     
-      
         <h3>Nigiri</h3>
         {nigirisContent}
-      
-     
         <h3>Maki</h3>
         {makisContent}
-    
     </div>
   );
 };

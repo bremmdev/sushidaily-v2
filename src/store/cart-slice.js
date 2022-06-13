@@ -11,17 +11,19 @@ const cartSlice = createSlice({
       //check if the added item is already in cart
       const existingIndex = state.items.findIndex(item => item.id === action.payload.id)
       
-      //item not present in cart
+      //item not present in cart, so add it
       if(existingIndex === -1){
          state.items = [...state.items, { ...action.payload, amount: 1}] 
       }
+
+      //add the amount of the already present item
       else {
         state.items[existingIndex].amount++ 
       }
       state.totalAmount += action.payload.price
     },
     removeItemFromCart(state, action){
-      //get index of item
+      //get index of item to remove
       const existingIndex = state.items.findIndex(item => item.id === action.payload)
 
       state.totalAmount -= state.items[existingIndex].price

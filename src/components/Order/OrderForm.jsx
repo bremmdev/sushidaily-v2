@@ -8,7 +8,7 @@ import useFetch from "../../hooks/use-fetch.js";
 import { saveOrder } from "../../api/api.js";
 
 const validateText = (value) => {
-  return typeof value === 'string' && value.length > 3
+  return typeof value === 'string' && value.length >= 3
 }
 
 const validateEmail = (value) => {
@@ -23,7 +23,7 @@ const OrderForm = () => {
   const dispatch = useDispatch();
 
   const cart = useSelector((state) => state.cart);
-  const { data, error, status, sendRequest } = useFetch(saveOrder);
+  const { error, status, sendRequest } = useFetch(saveOrder);
 
   const {
     value: name,
@@ -98,7 +98,6 @@ const OrderForm = () => {
     handleAllInputInteractions();
 
     if (formIsValid) {
-      
       const customerData = {
         name,
         email,
@@ -114,7 +113,6 @@ const OrderForm = () => {
 
       //send order to Firebase
       sendRequest(orderData);
-
     }
   };
 
@@ -152,8 +150,6 @@ const OrderForm = () => {
       dispatch(cartActions.clearCart());
     }
   }, [status]);
-
-
 
   return (
       <form className={styles["order-form"]} onSubmit={submitFormHandler}>

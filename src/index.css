@@ -14,7 +14,7 @@
   font-size:1rem;
 } 
 
-/* GENERAL AND RESETS */
+/* GENERAL STYLES AND RESETS */
 
 *{
   box-sizing: border-box;
@@ -62,9 +62,6 @@ h3 {
   border:none;
   margin-top:2em;
 }
-
-
-
 
 /* UTILS */
 
